@@ -1,0 +1,3 @@
+# Final Project Problem Statement
+---
+With my final project, I aim to answer the question of: is the beer I am about to drink going to be good? With the rising popularity of small craft and micro breweries, it is often difficult to assess the estimated qulaity of a beer prior to actually purchasing and trying the beer.   I aim to use various quantitative and qualitative features of different beers to attempt to "score" potential beers.  I anticipate using the data from [Craftcans.com](https://www.craftcans.com) in conjunction with the [Ratebeers.com API](https://www.ratebeer.com/api.asp) in order to train a model that can predict beer quality.
