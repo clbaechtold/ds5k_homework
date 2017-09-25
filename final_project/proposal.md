@@ -12,3 +12,4 @@ The goal of incorporating geography in this way is that the model might implicit
 
 while still maintaing some flexibility in interpreting new or 'first-seen' brewers.  This should contribute meaningfully to the model's robustness in predicting the quality of future beers. 
 
+I also plan to include both the beer's style AND its parent style as input features.  The reason for this is that I hypothesize certain "parent" styles are more popular and thus likely have higher ratings.  However, within these groups, the specific style may also impact a beer's rating.  I would like to be able to include both of these as potential features to consider for an individual beer.  One way to possibly implement this would be to use the beer metrics and styles to cluster the beers and potentially expose similarities between beer families.  This cluster-label could then be used as an input feature to a separate model that predicts the actual beer rating.
