@@ -9,5 +9,6 @@ The goal of incorporating geography in this way is that the model might implicit
 * access to quality local ingredients
 * climate impact on fermentation/brewing process
 * maturity of craft brewing market
+
 while still maintaing some flexibility in interpreting new or 'first-seen' brewers.  This should contribute meaningfully to the model's robustness in predicting the quality of future beers. 
 
