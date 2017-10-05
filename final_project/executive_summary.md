@@ -17,8 +17,8 @@ Due to the significant class imbalance in the target variable, a raw accuracy sc
 I will focus on two primary techniques for classification:
 * Logistic Regression
 
-...Logistic regression is appealing because on non-transformed data, the coefficients returned by the model are actually interpretable and meaningful.  While this data is PCA transformed, I would like to assess how a Logistic Regression classifier performs, in the hopes that turning a similar model to un-transformed raw transaction data migth lead to insightful interpretation of coefficients.
+   Logistic regression is appealing because on non-transformed data, the coefficients returned by the model are actually interpretable and meaningful.  While this data is PCA transformed, I would like to assess how a Logistic Regression classifier performs, in the hopes that turning a similar model to un-transformed raw transaction data migth lead to insightful interpretation of coefficients.
 * Random Forest
 
-...Because the dataset has already been PCA-transformed, the covariance between input features should be maximized.  As a result, we are already presented with the ideal feature set for performing binary splitting on the data such as decision trees.  This, in combination with the class imbalance, indicates that ensembling decision trees using a Random Forest classifier is likely to lead to producing an effective model. 
+   Because the dataset has already been PCA-transformed, the covariance between input features should be maximized.  As a result, we are already presented with the ideal feature set for performing binary splitting on the data such as decision trees.  This, in combination with the class imbalance, indicates that ensembling decision trees using a Random Forest classifier is likely to lead to producing an effective model. 
 
